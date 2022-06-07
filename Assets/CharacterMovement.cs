@@ -5,12 +5,14 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     Vector3 position;
-    float rotationSpeed = 1f;
+    float rotationSpeed = 2f;
     float movementSpeed = 0.1f;
     float jumpForce = 10;
     int MaxJump = 1;
     int hasJump;
     Rigidbody rb;
+    GameObject enemy;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -66,6 +68,24 @@ public class CharacterMovement : MonoBehaviour
         if (col.gameObject.tag == "ground")
         {
             hasJump = MaxJump;
+        }
+
+        if (col.gameObject.name == "Enemy")
+        {
+            Destroy(gameObject);
+        }
+
+        if (col.gameObject.name == "Player")
+        {
+            Destroy(enemy);
+        }
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.name == "Money")
+        {
+
         }
     }
 }
