@@ -11,7 +11,6 @@ public class CharacterMovement : MonoBehaviour
     int MaxJump = 1;
     int hasJump;
     Rigidbody rb;
-    GameObject enemy;
     
 
     // Start is called before the first frame update
@@ -24,7 +23,7 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow) && hasJump == MaxJump)
+        if (Input.GetKey(KeyCode.RightArrow) /*&& hasJump == MaxJump*/)
         {
             transform.Translate(movementSpeed, 0, 0);
 
@@ -40,7 +39,7 @@ public class CharacterMovement : MonoBehaviour
             transform.Translate(0, 0, movementSpeed);
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow) && hasJump == MaxJump)
+        if (Input.GetKey(KeyCode.LeftArrow) /*&& hasJump == MaxJump*/)
         {
             transform.Translate(-movementSpeed, 0, 0);
         }
@@ -70,22 +69,18 @@ public class CharacterMovement : MonoBehaviour
             hasJump = MaxJump;
         }
 
-        if (col.gameObject.name == "Enemy")
-        {
-            Destroy(gameObject);
-        }
+        //if (col.gameObject.name == "Enemy")
+        //{
+        //    Destroy(gameObject);
+        //}
 
-        if (col.gameObject.name == "Player")
-        {
-            Destroy(enemy);
-        }
     }
 
-    void OnTriggerEnter(Collider col)
-    {
-        if (col.gameObject.name == "Money")
-        {
+    //void OnTriggerEnter(Collider col)
+    //{
+    //    if (col.gameObject.name == "Money")
+    //    {
 
-        }
-    }
+    //    }
+    //}
 }
