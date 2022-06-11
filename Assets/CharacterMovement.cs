@@ -6,9 +6,9 @@ public class CharacterMovement : MonoBehaviour
 {
     Vector3 position;
     float rotationSpeed = 2f;
-    float movementSpeed = 0.1f;
-    float jumpForce = 10;
-    int MaxJump = 1;
+    float movementSpeed = 0.2f;
+    public float jumpForce = 5;
+    int MaxJump = 2;
     int hasJump;
     Rigidbody rb;
     
@@ -23,23 +23,23 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow) /*&& hasJump == MaxJump*/)
+        if (Input.GetKey(KeyCode.UpArrow) /*&& hasJump == MaxJump*/)
         {
             transform.Translate(movementSpeed, 0, 0);
 
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(0, 0, -movementSpeed);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(0, 0, movementSpeed);
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow) /*&& hasJump == MaxJump*/)
+        if (Input.GetKey(KeyCode.DownArrow) /*&& hasJump == MaxJump*/)
         {
             transform.Translate(-movementSpeed, 0, 0);
         }
@@ -64,15 +64,15 @@ public class CharacterMovement : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "ground")
+        if (col.gameObject.tag == "ground" || col.gameObject.tag == "platform")
         {
             hasJump = MaxJump;
         }
 
-        //if (col.gameObject.name == "Enemy")
-        //{
-        //    Destroy(gameObject);
-        //}
+        if (col.gameObject.name == "Enemy")
+        {
+           Destroy(gameObject);
+        }
 
     }
 
