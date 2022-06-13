@@ -291,6 +291,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1645928333}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -325,6 +347,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 63699170}
@@ -438,6 +482,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 87967235}
@@ -750,6 +816,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 179906484}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -861,6 +949,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 203621997}
@@ -1245,6 +1355,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 290714887}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -1561,6 +1693,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 357961476}
@@ -2029,6 +2183,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 478436294}
@@ -2732,6 +2908,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 560970278}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -3134,6 +3332,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 662872946}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -3247,6 +3467,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 730058832}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -3358,6 +3600,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1447669033}
@@ -3759,6 +4023,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 862180259}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -4051,6 +4337,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 883341982}
@@ -4362,7 +4670,6 @@ GameObject:
   - component: {fileID: 990754865}
   - component: {fileID: 990754864}
   - component: {fileID: 990754863}
-  - component: {fileID: 990754862}
   m_Layer: 0
   m_Name: Money
   m_TagString: Untagged
@@ -4370,21 +4677,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &990754862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990754861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: {fileID: 990754861}
-  coinsDisplay: {fileID: 54845070}
-  coinCounter: 0
 --- !u!136 &990754863
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4493,6 +4785,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1037001568}
@@ -4683,6 +4997,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1045897920}
@@ -5067,6 +5403,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1186892188}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -5282,7 +5640,6 @@ GameObject:
   - component: {fileID: 1214398501}
   - component: {fileID: 1214398500}
   - component: {fileID: 1214398499}
-  - component: {fileID: 1214398498}
   m_Layer: 0
   m_Name: Money
   m_TagString: Untagged
@@ -5290,21 +5647,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1214398498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214398497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: {fileID: 1214398497}
-  coinsDisplay: {fileID: 54845070}
-  coinCounter: 0
 --- !u!136 &1214398499
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5413,6 +5755,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1247458769}
@@ -5636,6 +6000,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1284537784}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -5857,6 +6243,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1342547095}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -5970,6 +6378,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1399588100}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -6081,6 +6511,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1410063197}
@@ -6366,6 +6818,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1447669033}
@@ -6875,6 +7349,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1638773150}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -6968,7 +7464,6 @@ GameObject:
   - component: {fileID: 1645928337}
   - component: {fileID: 1645928336}
   - component: {fileID: 1645928335}
-  - component: {fileID: 1645928334}
   m_Layer: 0
   m_Name: Money
   m_TagString: Untagged
@@ -6976,21 +7471,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1645928334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645928333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: {fileID: 1645928333}
-  coinsDisplay: {fileID: 54845070}
-  coinCounter: 0
 --- !u!136 &1645928335
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7887,6 +8367,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 1910277234}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -8087,6 +8589,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1945388648}
@@ -8877,6 +9401,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b987f5c9045ff84dba30340dbadd7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   money: {fileID: 2121678530}
   coinsDisplay: {fileID: 54845070}
   coinCounter: 0
@@ -9024,6 +9570,27 @@ PrefabInstance:
       propertyPath: coinsDisplay
       value: 
       objectReference: {fileID: 54845070}
+    - target: {fileID: 375730570904091956, guid: 5030628e9a0c5b741832b7008dead44a,
+        type: 3}
+      propertyPath: objectToClone
+      value: 
+      objectReference: {fileID: 7393903747642298395, guid: 334d1193c55423647a00f101f28b9c63,
+        type: 3}
+    - target: {fileID: 375730570904091956, guid: 5030628e9a0c5b741832b7008dead44a,
+        type: 3}
+      propertyPath: Caja
+      value: 
+      objectReference: {fileID: 964295072}
+    - target: {fileID: 375730570904091956, guid: 5030628e9a0c5b741832b7008dead44a,
+        type: 3}
+      propertyPath: cloneAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 375730570904091956, guid: 5030628e9a0c5b741832b7008dead44a,
+        type: 3}
+      propertyPath: fuerza
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 375730570904091957, guid: 5030628e9a0c5b741832b7008dead44a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9106,7 +9673,7 @@ PrefabInstance:
     - target: {fileID: 4252927642894381856, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0015
+      value: 0.0045
       objectReference: {fileID: 0}
     - target: {fileID: 4252927642894381856, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
@@ -9116,7 +9683,7 @@ PrefabInstance:
     - target: {fileID: 4252927642894381856, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0062
       objectReference: {fileID: 0}
     - target: {fileID: 4252927642894381856, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
@@ -9166,12 +9733,12 @@ PrefabInstance:
     - target: {fileID: 4252927642894381856, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0340201
+      value: 0.94246805
       objectReference: {fileID: 0}
     - target: {fileID: 4252927642894381856, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0290906
+      value: 0.9314764
       objectReference: {fileID: 0}
     - target: {fileID: 5521744191475308984, guid: 998029e6aab423f44babe6ebe777701e,
         type: 3}
@@ -9350,7 +9917,7 @@ PrefabInstance:
     - target: {fileID: 7942137095452024663, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.523
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 7942137095452024663, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
@@ -9360,22 +9927,22 @@ PrefabInstance:
     - target: {fileID: 7942137095452024663, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0364579
+      value: 0.83356833
       objectReference: {fileID: 0}
     - target: {fileID: 7942137095452024663, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0038
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7942137095452024663, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0024
+      value: -0.0062
       objectReference: {fileID: 0}
     - target: {fileID: 7942137095452024663, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0280567
+      value: 0.84019065
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6587433139535546679, guid: 787ccad6b0350024ba622af395413018, type: 3}

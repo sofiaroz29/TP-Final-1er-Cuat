@@ -20,6 +20,11 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField]
     int coinCounter;
 
+    public GameObject Caja;
+    public GameObject objectToClone;
+    public int cloneAmount;
+    public float fuerza;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -154,7 +159,26 @@ public class CharacterMovement : MonoBehaviour
            
         }
 
+        if (col.gameObject.name == "Player" /*&& Input.GetKeyDown(KeyCode.E)*/)
+        {
+            Destroy(Caja);
+            int counter = 0;
 
+            while (counter < cloneAmount)
+            {
+                for (int i = 0; i < cloneAmount; i++)
+                {
+                    Instantiate(objectToClone);
+                    Rigidbody rbMoneda = objectToClone.GetComponent<Rigidbody>();
+                    rbMoneda.AddForce(transform.forward * fuerza, ForceMode.Impulse);
+                    rbMoneda.AddForce(transform.up * fuerza, ForceMode.Impulse);
+                    counter++;
+
+                }
+            }
+        }
+
+      
 
     }
 
