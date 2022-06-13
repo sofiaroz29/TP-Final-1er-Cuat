@@ -25,6 +25,15 @@ public class CharacterMovement : MonoBehaviour
     public int cloneAmount;
     public float fuerza;
 
+    public GameObject panel;
+    public GameObject panelWin;
+    public Text timer;
+
+    public GameObject platform1;
+    public GameObject platform2;
+    public GameObject platform3;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -156,7 +165,8 @@ public class CharacterMovement : MonoBehaviour
         if (col.gameObject.name == "Enemy")
         {
            Destroy(gameObject);
-           
+           panel.SetActive(true);
+
         }
 
         if (col.gameObject.name == "Player" /*&& Input.GetKeyDown(KeyCode.E)*/)
@@ -178,7 +188,25 @@ public class CharacterMovement : MonoBehaviour
             }
         }
 
-      
+      if (col.gameObject.name == "finalplatform1")
+      {
+         platform1.SetActive(true);
+      }
+
+      if( col.gameObject.name == "finalplatform2")
+      {
+            platform2.SetActive(true);
+      }
+
+      if (col.gameObject.name == "finalplatform3")
+        {
+            platform3.SetActive(true);
+            panelWin.SetActive(true);
+            timer.text = "";
+            coinsDisplay.text = "";
+
+
+        }
 
     }
 

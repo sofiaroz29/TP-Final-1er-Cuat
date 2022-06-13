@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemydestroy : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class Enemydestroy : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             Destroy(Enemy);
+
         }
     }
 }
