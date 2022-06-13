@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class CharacterMovement : MonoBehaviour
     public Camera secondaryCamara;
     public bool isPressed;
 
+    public Text coinsDisplay;
+    [SerializeField]
+    int coinCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +26,7 @@ public class CharacterMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         hasJump = 2;
         isPressed = false;
-        
+        coinCounter = 0;
     }
 
     // Update is called once per frame
@@ -154,11 +158,16 @@ public class CharacterMovement : MonoBehaviour
 
     }
 
-    //void OnTriggerEnter(Collider col)
-    //{
-    //    if (col.gameObject.name == "Money")
-    //    {
+    void OnTriggerEnter(Collider col)
+    {
 
-    //    }
-    //}
+        if (col.gameObject.name == "Money")
+        {
+            coinCounter++;
+            coinsDisplay.text = "Coins: " + coinCounter.ToString();
+            Destroy(col.gameObject);
+        }
+    }
 }
+
+

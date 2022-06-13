@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Moneybehaviour : MonoBehaviour
+public class texto : MonoBehaviour
 {
-    public GameObject money;
+    public Text txtCoins;
 
     // Start is called before the first frame update
     void Start()
@@ -16,15 +17,5 @@ public class Moneybehaviour : MonoBehaviour
     void Update()
     {
         
-    }
-
-
-    void OnTriggerEnter(Collider col)
-    {
-
-        if (col.gameObject.name == "Player")
-        {
-            Destroy(money);
-        }
     }
 }

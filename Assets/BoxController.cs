@@ -15,7 +15,7 @@ public class BoxController : MonoBehaviour
 
         if (col.gameObject.name == "Player" /*&& Input.GetKeyDown(KeyCode.E)*/)
         {
-            //Destroy(gameObject);
+            Destroy(gameObject);
             instrucciones.text = "Press K to hit";
 
         }
