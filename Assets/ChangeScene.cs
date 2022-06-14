@@ -19,8 +19,13 @@ public class ChangeScene : MonoBehaviour
         
     }
 
-    public void changeScene()
+    public void gamescene()
     {
         SceneManager.LoadScene("tp final fbwg");
+    }
+
+    public void firstscene()
+    {
+        SceneManager.LoadScene("ComenzarJuego");
     }
 }

@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class Playaudio : MonoBehaviour
 {
 
-    public AudioSource source;
-    public AudioClip clip;
+    public AudioManager miAM;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +19,13 @@ public class AudioManager : MonoBehaviour
         
     }
 
-    public void PlayClip()
+
+    void OnCollisionEnter (Collision col)
     {
-        source.clip = clip;
-        source.Play();
+        if (col.gameObject.name == "Enemy")
+        {
+            miAM.PlayClip();
+           
+        }
     }
 }

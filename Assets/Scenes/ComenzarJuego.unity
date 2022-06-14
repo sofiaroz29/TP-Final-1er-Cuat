@@ -374,7 +374,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1449619702}
-        m_MethodName: changeScene
+        m_MethodName: gamescene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
