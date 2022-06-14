@@ -143,6 +143,11 @@ public class CharacterMovement : MonoBehaviour
 
         txtTimer.text = "Time: " + tiempo.ToString();
 
+        if (transform.position.y < -1)
+        {
+            panel.SetActive(true);
+        }
+
     }
 
     void ShowFromTheSide()
@@ -187,7 +192,6 @@ public class CharacterMovement : MonoBehaviour
 
         if (col.gameObject.name == "Enemy")
         {
-            miAM.PlayClip();
             Destroy(gameObject);
             panel.SetActive(true);
             stoptimer = false;
@@ -233,6 +237,9 @@ public class CharacterMovement : MonoBehaviour
 
         if (col.gameObject.name == "finalplatform4")
         {
+
+
+            miAM.PlayClip();
             panelWin.SetActive(true);
             //txtTimer.text = tiempo.ToString();
             int counter = 0;

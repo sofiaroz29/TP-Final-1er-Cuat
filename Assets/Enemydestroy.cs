@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Enemydestroy : MonoBehaviour
 {
     public GameObject Enemy;
-
+    public AudioManager miAM;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class Enemydestroy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
 
@@ -25,6 +26,7 @@ public class Enemydestroy : MonoBehaviour
 
         if (col.gameObject.name == "Player")
         {
+            miAM.PlayClip();
             Destroy(Enemy);
 
         }

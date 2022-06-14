@@ -2370,9 +2370,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498168753}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.92, z: 0}
-  m_LocalScale: {x: 0.75218755, y: 0.57397527, z: 0.775}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1195067719}
   m_RootOrder: 0
@@ -5456,8 +5456,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 0fa6c9c42157e4d4fb2683d59518a302, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5857,7 +5857,6 @@ GameObject:
   - component: {fileID: 1195067718}
   - component: {fileID: 1195067717}
   - component: {fileID: 1195067716}
-  - component: {fileID: 1195067720}
   - component: {fileID: 1195067721}
   m_Layer: 0
   m_Name: MovingPlatform
@@ -5939,22 +5938,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!54 &1195067720
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195067715}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!114 &1195067721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10416,6 +10399,11 @@ PrefabInstance:
       propertyPath: Enemy
       value: 
       objectReference: {fileID: 1477652724}
+    - target: {fileID: 2885807604186216082, guid: 787ccad6b0350024ba622af395413018,
+        type: 3}
+      propertyPath: miAM
+      value: 
+      objectReference: {fileID: 1108652383}
     - target: {fileID: 6587433139038823624, guid: 787ccad6b0350024ba622af395413018,
         type: 3}
       propertyPath: Enemy
