@@ -41,6 +41,10 @@ public class CharacterMovement : MonoBehaviour
     public GameObject platform3;
 
     public AudioManager miAM;
+    public GameObject movingPlatform;
+
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -250,6 +254,20 @@ public class CharacterMovement : MonoBehaviour
             coinCounter++;
             coinsDisplay.text = "Coins: " + coinCounter.ToString();
             Destroy(col.gameObject);
+        }
+
+        if (col.gameObject.name == "Moving Platform")
+        {
+            gameObject.transform.SetParent(movingPlatform.transform.parent);
+        }
+    }
+
+
+    void OnTriggerExit (Collider col)
+    {
+        if (col.gameObject.name == "Moving Platform")
+        {
+            gameObject.transform.parent = gameObject.transform.parent;
         }
     }
 }
