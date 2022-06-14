@@ -36,6 +36,7 @@ public class CharacterMovement : MonoBehaviour
     bool stoptimer;
     public GameObject Bandera;
     public GameObject Confetti;
+    Rigidbody rbConfetti;
 
     public GameObject platform1;
     public GameObject platform2;
@@ -57,6 +58,7 @@ public class CharacterMovement : MonoBehaviour
         isPressed = false;
         coinCounter = 0;
         stoptimer = true;
+        cloneAmount = 30;
     }
 
     // Update is called once per frame
@@ -250,10 +252,10 @@ public class CharacterMovement : MonoBehaviour
                 {
                     GameObject clon;
                     clon = Instantiate(Confetti);
-                    rbMoneda = objectToClone.GetComponent<Rigidbody>();
-                    clon.transform.position = Bandera.transform.position - Bandera.transform.forward;
-                    rbMoneda.AddForce(clon.transform.forward * fuerza, ForceMode.Impulse);
-                    rbMoneda.AddForce(clon.transform.up * fuerza, ForceMode.Impulse);
+                    //rbConfetti = Confetti.GetComponent<Rigidbody>();
+                    //clon.transform.position = Bandera.transform.position;
+                    //rbConfetti.AddForce(clon.transform.forward * fuerza, ForceMode.Impulse);
+                    //rbConfetti.AddForce(clon.transform.up * fuerza, ForceMode.Impulse);
                     counter++;
 
                 }
