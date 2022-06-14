@@ -32,7 +32,8 @@ public class CharacterMovement : MonoBehaviour
     public GameObject panelWin;
     public Text txtTimer;
     public Text txtFinal;
-    int tiempo;
+    float tiempo;
+    bool stoptimer;
     public GameObject Bandera;
     public GameObject Confetti;
 
@@ -41,10 +42,12 @@ public class CharacterMovement : MonoBehaviour
     public GameObject platform3;
 
     public AudioManager miAM;
-    public GameObject movingPlatform;
+
+     
+    //public GameObject movingPlatform;
 
 
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +56,7 @@ public class CharacterMovement : MonoBehaviour
         hasJump = 2;
         isPressed = false;
         coinCounter = 0;
+        stoptimer = true;
     }
 
     // Update is called once per frame
@@ -109,7 +113,7 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A) && isPressed == false)
         {
             //transform.Rotate(0, rotationSpeed, 0);
-          
+
             ShowFirstPerson();
             isPressed = true;
         }
@@ -117,28 +121,35 @@ public class CharacterMovement : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.A) && isPressed == true)
         {
             //transform.Rotate(0, -rotationSpeed, 0);
-           
+
             ShowFromTheSide();
             isPressed = false;
 
             Debug.Log(isPressed);
-            
+
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && hasJump>0)
+        if (Input.GetKeyDown(KeyCode.Space) && hasJump > 0)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             hasJump--;
         }
 
+        if (stoptimer == true)
+        {
+            tiempo = Mathf.Floor(Time.time);
+
+        }
+
+        txtTimer.text = "Time: " + tiempo.ToString();
 
     }
 
-    void ShowFromTheSide ()
+    void ShowFromTheSide()
     {
         secondaryCamara.enabled = true;
         mainCamara.enabled = false;
-        
+
     }
 
     void ShowFirstPerson()
@@ -176,10 +187,10 @@ public class CharacterMovement : MonoBehaviour
 
         if (col.gameObject.name == "Enemy")
         {
-           miAM.PlayClip();
-           Destroy(gameObject);
-           panel.SetActive(true);
-
+            miAM.PlayClip();
+            Destroy(gameObject);
+            panel.SetActive(true);
+            stoptimer = false;
         }
 
         if (col.gameObject.name == "Player" /*&& Input.GetKeyDown(KeyCode.E)*/)
@@ -203,24 +214,24 @@ public class CharacterMovement : MonoBehaviour
             }
         }
 
-      if (col.gameObject.name == "finalplatform1")
-      {
-         platform1.SetActive(true);
-      }
+        if (col.gameObject.name == "finalplatform1")
+        {
+            platform1.SetActive(true);
+        }
 
-      if( col.gameObject.name == "finalplatform2")
-      {
+        if (col.gameObject.name == "finalplatform2")
+        {
             platform2.SetActive(true);
-      }
+        }
 
-      if (col.gameObject.name == "finalplatform3")
+        if (col.gameObject.name == "finalplatform3")
         {
             platform3.SetActive(true);
-            
+
 
         }
 
-      if (col.gameObject.name == "finalplatform4")
+        if (col.gameObject.name == "finalplatform4")
         {
             panelWin.SetActive(true);
             //txtTimer.text = tiempo.ToString();
@@ -256,20 +267,21 @@ public class CharacterMovement : MonoBehaviour
             Destroy(col.gameObject);
         }
 
-        if (col.gameObject.name == "Moving Platform")
-        {
-            gameObject.transform.SetParent(movingPlatform.transform.parent);
-        }
-    }
+        //    if (col.gameObject.name == "hb Moving Platform")
+        //    {
+        //        gameObject.transform.SetParent(movingPlatform.transform.parent);
+        //    }
+        //}
 
 
-    void OnTriggerExit (Collider col)
-    {
-        if (col.gameObject.name == "Moving Platform")
-        {
-            gameObject.transform.parent = gameObject.transform.parent;
-        }
+        //void OnTriggerExit (Collider col)
+        //{
+        //    if (col.gameObject.name == "hb Moving Platform")
+        //    {
+        //        gameObject.transform.parent = gameObject.transform.parent;
+        //    }
+        //}
     }
+
 }
-
 
