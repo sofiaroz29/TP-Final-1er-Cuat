@@ -12,6 +12,7 @@ public class CharacterMovement : MonoBehaviour
     int MaxJump = 2;
     int hasJump;
     Rigidbody rb;
+
     public Camera mainCamara;
     public Camera secondaryCamara;
     public bool isPressed;
@@ -22,17 +23,24 @@ public class CharacterMovement : MonoBehaviour
 
     public GameObject Caja;
     public GameObject objectToClone;
+    Rigidbody rbMoneda;
+    public Transform TR;
     public int cloneAmount;
     public float fuerza;
 
     public GameObject panel;
     public GameObject panelWin;
-    public Text timer;
+    public Text txtTimer;
+    public Text txtFinal;
+    int tiempo;
+    public GameObject Bandera;
+    public GameObject Confetti;
 
     public GameObject platform1;
     public GameObject platform2;
     public GameObject platform3;
 
+    public AudioManager miAM;
 
     // Start is called before the first frame update
     void Start()
@@ -164,6 +172,7 @@ public class CharacterMovement : MonoBehaviour
 
         if (col.gameObject.name == "Enemy")
         {
+           miAM.PlayClip();
            Destroy(gameObject);
            panel.SetActive(true);
 
@@ -178,10 +187,12 @@ public class CharacterMovement : MonoBehaviour
             {
                 for (int i = 0; i < cloneAmount; i++)
                 {
-                    Instantiate(objectToClone);
-                    Rigidbody rbMoneda = objectToClone.GetComponent<Rigidbody>();
-                    rbMoneda.AddForce(transform.forward * fuerza, ForceMode.Impulse);
-                    rbMoneda.AddForce(transform.up * fuerza, ForceMode.Impulse);
+                    GameObject clon;
+                    clon = Instantiate(objectToClone);
+                    rbMoneda = objectToClone.GetComponent<Rigidbody>();
+                    clon.transform.position = Caja.transform.position - Caja.transform.forward;
+                    rbMoneda.AddForce(clon.transform.forward * fuerza, ForceMode.Impulse);
+                    rbMoneda.AddForce(TR.transform.up * fuerza, ForceMode.Impulse);
                     counter++;
 
                 }
@@ -201,11 +212,32 @@ public class CharacterMovement : MonoBehaviour
       if (col.gameObject.name == "finalplatform3")
         {
             platform3.SetActive(true);
+            
+
+        }
+
+      if (col.gameObject.name == "finalplatform4")
+        {
             panelWin.SetActive(true);
-            timer.text = "";
+            //txtTimer.text = tiempo.ToString();
+            int counter = 0;
+
+            while (counter < cloneAmount)
+            {
+                for (int i = 0; i < cloneAmount; i++)
+                {
+                    GameObject clon;
+                    clon = Instantiate(Confetti);
+                    rbMoneda = objectToClone.GetComponent<Rigidbody>();
+                    clon.transform.position = Bandera.transform.position - Bandera.transform.forward;
+                    rbMoneda.AddForce(clon.transform.forward * fuerza, ForceMode.Impulse);
+                    rbMoneda.AddForce(clon.transform.up * fuerza, ForceMode.Impulse);
+                    counter++;
+
+                }
+            }
             coinsDisplay.text = "";
-
-
+            txtFinal.text = "Total Coins: " + coinCounter.ToString() + '\n' + "Timer: " + tiempo.ToString();
         }
 
     }
@@ -213,7 +245,7 @@ public class CharacterMovement : MonoBehaviour
     void OnTriggerEnter(Collider col)
     {
 
-        if (col.gameObject.name == "Money")
+        if (col.gameObject.name == "Money" || col.gameObject.name == "Money (1)(Clone)")
         {
             coinCounter++;
             coinsDisplay.text = "Coins: " + coinCounter.ToString();
