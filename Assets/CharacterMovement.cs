@@ -252,10 +252,6 @@ public class CharacterMovement : MonoBehaviour
                 {
                     GameObject clon;
                     clon = Instantiate(Confetti);
-                    //rbConfetti = Confetti.GetComponent<Rigidbody>();
-                    //clon.transform.position = Bandera.transform.position;
-                    //rbConfetti.AddForce(clon.transform.forward * fuerza, ForceMode.Impulse);
-                    //rbConfetti.AddForce(clon.transform.up * fuerza, ForceMode.Impulse);
                     counter++;
 
                 }
